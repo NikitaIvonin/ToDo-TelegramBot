@@ -9,7 +9,7 @@ async def main():
     create_database()
     connect_database()
     create_table()
-    bot = Bot(token='6451589117:AAFrcNyNafKCbKSJhdGZ-k9XAzmj4EWna1A')
+    bot = Bot(token='')
     dp = Dispatcher()
     dp.include_router(router)
     await dp.start_polling(bot)
